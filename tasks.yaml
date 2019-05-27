@@ -1,5 +1,35 @@
 tasks:
-- name: Test Event
+- name: Planning and Email
+  column: Today
+  category: Administration
+  schedule: '0 12 * * 1,2,3,4,5'
+
+- name: "Saurabh 1:1"
+  column: Today
+  category: Administration
+  schedule: '0 12 * * 1'
+
+- name: Schedule Sage Guru
   column: Today
   category: Learning
-  schedule: '*/3 * * * *'
+  schedule: '0 12 * * 2'
+
+- name: Weekly Snippet
+  column: Today
+  category: Administration
+  schedule: '0 12 * * 5'
+
+- name: Gym
+  column: Today
+  category: Self Care
+  schedule: '0 12 * * 1,2,3,4,5'
+
+- name: Office Hours
+  column: Today
+  category: Other Products
+  schedule: '0 12 * * 1,5'
+
+#- name: Read C++ Templates
+#  column: Today
+#  category: Learning
+#  schedule: '0 12 * * 1,2,3,4,5'
