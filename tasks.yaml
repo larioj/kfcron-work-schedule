@@ -1,1 +1,5 @@
-tasks: []
+tasks:
+- name: Test Event
+  column: Today
+  category: Learning
+  schedule: '*/3 * * * *'
